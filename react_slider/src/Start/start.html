@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html>
+    <head>
+        <title>Slider</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>
+        <script type="text/javascript" src="start.js"></script>
+        <link rel="stylesheet" href="start.css"/>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <div class="range-multi-slider style_2">
+                <div class="bg_main">
+                    <div class="bg_2"></div>
+                </div>
+                <div data-func-id='Funel Filter > Кластеры > 4G > Доля измерений RSRQ > Относительно > min' class="range-slider">
+                    <div class="bar"></div>
+                    <div class="custom_handle"></div>
+                    <input class="range-slider__range" type="range" value="-75" min="-100" max="0">
+                    <div class="value"><span class="range-slider__value"></span><span class="range-slider__ci">%</span></div>
+                </div>
+
+                <div data-func-id='Funel Filter > Кластеры > 4G > Доля измерений RSRQ > Относительно > max' class="range-slider">
+                    <div class="bar"></div>
+                    <div class="custom_handle"></div>
+                    <input class="range-slider__range" type="range" value="75" min="0" max="1000">
+                    <div class="pipes_container">
+                        <div class="pipe"></div>
+                    </div>
+                    <div class="value"><span class="range-slider__value"></span><span class="range-slider__ci">%</span></div>
+                </div>
+
+            </div>
+        </div>
+    <input type="range">
+    </body>
+</html>
