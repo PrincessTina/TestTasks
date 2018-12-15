@@ -2,7 +2,6 @@
     position: relative;
     margin: 20vh 30vw;
     display: flex;
-    z-index: 1;
 }
 
 .slider__block {
@@ -36,7 +35,6 @@
     cursor: pointer;
     -webkit-transition: background .15s ease-in-out;
     transition: background .15s ease-in-out;
-    z-index: 2;
 }
 
 .slider__value--left {
@@ -46,6 +44,7 @@
     line-height: 14px;
     font-size: 14px;
     padding: 1px 2px 0 2px;
+    cursor: default;
     left: 0;
 }
 
@@ -56,6 +55,7 @@
     line-height: 14px;
     font-size: 14px;
     padding: 1px 2px 0 2px;
+    cursor: default;
     right: 0;
 }
 
@@ -69,7 +69,6 @@
     cursor: pointer;
     -webkit-transition: background .15s ease-in-out;
     transition: background .15s ease-in-out;
-    z-index: 2;
 }
 
 .slider__middleBlock {
