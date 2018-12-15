@@ -98,7 +98,7 @@ export default class Slider extends React.Component {
                 return this.dateStr(new Date(Math.abs(value)));
             }
         } else {
-            return value + '%';
+            return value + ' %';
         }
     }
 
