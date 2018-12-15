@@ -74,7 +74,7 @@
 .slider__middleBlock {
     position: absolute;
     left: calc(50% + 1px);
-    top: -2px;
+    top: calc(-25%);
     width: 2px;
     height: 13px;
     border-radius: 2px;

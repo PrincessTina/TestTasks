@@ -103,7 +103,7 @@ export default class Slider extends React.Component {
     }
 
     render() {
-        let sliderClass = 'slider time';
+        let sliderClass = 'slider';
 
         return (
             <div className={sliderClass}>
